@@ -1,0 +1,7 @@
+num_x_str = input("Sláið inn tölu fyrir stytri hlið: ")
+num_x = int(num_x_str)
+num_y_str = input("Sláið inn tölu fyrir lengri hlið: ")
+num_y = int(num_y_str)
+num_h_str = input("Sláið inn tölu fyrir hæð: ")
+num_h = int(num_h_str)
+print("Flatarmál Trapziod er: ", ((num_x + num_y) / 2) * num_h, "Fermetrar")
